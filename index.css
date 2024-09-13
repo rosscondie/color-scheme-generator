@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: ;
+}
+
+#color-picker {
+  height: 42px;
+  width: 61px;
+  border-style: none;
+  margin: 14px;
+}
+
+#input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modes {
+  height: 42px;
+  width: 312px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#get-color-btn {
+  height: 42px;
+  width: 123px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+}
