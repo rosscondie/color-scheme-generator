@@ -16,16 +16,18 @@ getColorBtn.addEventListener("click", function () {
     .then((data) => {
       let colorsArr = data.colors;
 
-      console.log(colorsArr);
-
       let html = "";
+      let hexValue = "";
 
       for (let i = 0; i < colorsArr.length; i++) {
         html += `
-        <img width="110px" height="550px" src="${colorsArr[i].image.bare}" />
+        <img width="110px" height="400px" src="${colorsArr[i].image.bare}" />
+        `;
+        hexValue += `
+        <p>${colorsArr[i].hex.value}</p>
         `;
       }
-
       imageContainer.innerHTML = html;
+      hexValueContainer.innerHTML = hexValue;
     });
 });

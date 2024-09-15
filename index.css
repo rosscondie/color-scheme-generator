@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  font-size: ;
+  color: #cad3f5;
+  background-color: #24273a;
 }
 
 #color-picker {
@@ -9,6 +10,7 @@ body {
   width: 61px;
   border-style: none;
   margin: 14px;
+  background-color: #24273a;
 }
 
 #input-container {
@@ -32,12 +34,19 @@ body {
   height: 42px;
   width: 123px;
   border: 1px solid #d1d5db;
+  border-style: none;
   border-radius: 6px;
   cursor: pointer;
-  background-color: #ffffff;
 }
 
 #image-container {
   display: flex;
   justify-content: center;
+}
+
+#hex-value-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
 }
