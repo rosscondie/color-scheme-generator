@@ -6,8 +6,8 @@ const imageContainer = document.getElementById("image-container");
 const hexValueContainer = document.getElementById("hex-value-container");
 
 getColorBtn.addEventListener("click", function () {
-  let hexValueWithoutHash = colorPicker.value.slice(1);
-  let mode = selectMode.value;
+  const hexValueWithoutHash = colorPicker.value.slice(1);
+  const mode = selectMode.value;
 
   let url = `${baseUrl}/scheme?hex=${hexValueWithoutHash}&mode=${mode}`;
 
